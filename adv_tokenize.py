@@ -5,7 +5,7 @@ import PyPDF2 as pf
 import glob
 import pandas as pd
 
-for year in range(2019,2020)[::-1]:
+for year in range(2008,2019)[::-1]:
     dflist = []
     flist = glob.glob('data/%s*.pdf' % year)
     print("Total :", len(flist))
