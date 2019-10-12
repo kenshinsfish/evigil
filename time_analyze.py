@@ -2,7 +2,7 @@ import pandas as pd
 import glob
 import sys
 
-files = glob.glob('2*.csv')
+files = glob.glob('yearly_data/*.csv')
 dflist = []
 for f in files:
     df = pd.read_csv(f)
