@@ -7,7 +7,7 @@ import pandas as pd
 rrex = re.compile('.*(hindu|christian|islam).*(hindu|christian|islam).*')
 grex = re.compile('.*(daughter|wife).*')
 drex = re.compile('.*\(native.*district:(.*)\),.*')
-bdrex = re.compile('.*born on(.*)\(native district:.*')
+bdrex = re.compile('.*born[ ]*on(.*)\([ ]*native[ ]*district[ ]*:.*')
 for year in range(2008,2020)[::-1]:
     dflist = []
     flist = glob.glob('text/%s*.txt' % year)
@@ -17,8 +17,10 @@ for year in range(2008,2020)[::-1]:
         pages = ""
         with open(f) as fp:
             pages+=fp.read()
-        pages = pages.replace(str(int(year)-1), str(year))
-        lines = pages.split(str(year))
+        year, week = os.path.basename(f).replace('.pdf.txt','').split('_')
+        if int(week) == 1:
+            pages.replace(str(int(year)-1),str(year))
+        lines = pages.split(str(int(year)))
 
         from_rel = []
         to_rel = []
@@ -27,7 +29,10 @@ for year in range(2008,2020)[::-1]:
         bday = []
         for group in lines:
             if 'convert' in group:
-                x = "".join(group.split('\n')).lower() + str(year)
+                y = " ".join(group.split('\n')) + str(year)
+                x = " ".join(group.split('\n')).lower() + str(year)
+                y = y.format(CURRENTYEAR=str(year))
+                x = x.format(currentyear=str(year))
                 mlist = rrex.search(x)
                 glist = grex.search(x)
                 dlist = drex.search(x)
@@ -39,26 +44,27 @@ for year in range(2008,2020)[::-1]:
                 if bdlist != None:
                     bdstr = bdlist.group(1).split()
                     if len(bdstr) == 3:
-                        day, month, year = bdstr
+                        day, month, byear = bdstr
                     elif len(bdstr) == 2:
                         rex = re.compile('.*([a-z]*)([0-9]*).*')
                         mobj = rex.search(bdstr[1])
                         day = bdstr[0]
                         month = mobj.group(1)
-                        year = mobj.group(2)
+                        byear = mobj.group(2)
                     else:
                         print f, group
                         raise
                     day = day.strip('stndrh')
-                    bday.append("%s-%s-%s" % (day, month, year))
+                    bday.append("%s-%s-%s" % (day, month, byear))
                 else:
+                    print "BDAYUNK",f, x
+                    print y
                     bday.append('UNK')
 
         df = pd.DataFrame({'from':from_rel, 'to':to_rel,'gender':gender,
                             'district':district, 'bday': bday})
-        year, week = os.path.basename(f).replace('.pdf.txt','').split('_')
-        df['year'] = int(year)
-        df['week'] = int(week)
+        df['year'] = year
+        df['week'] = week
         dflist.append(df)
 
 
