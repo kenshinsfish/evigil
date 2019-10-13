@@ -14,6 +14,7 @@ df['regdate'] =  pd.to_datetime(df['regdate'], format='%Y-%m-%d', errors='coerce
 df['cday'] =  pd.to_datetime(df['cday'], format='%Y-%m-%d', errors='coerce')
 df['delay'] = df['regdate'] -  df['cday']
 df = df[df['delay'] >= pd.Timedelta(0)]
+df.to_csv('gazette_curated.csv')
 dfhi = df[(df['from'] == 'hindu') & (df['to'] == 'islam')]
 print("h->i = ",dfhi.shape[0])
 print("Mean reporting time : ", dfhi.delay.describe())
