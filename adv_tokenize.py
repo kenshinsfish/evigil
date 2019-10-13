@@ -6,7 +6,7 @@ import pandas as pd
 m_map = {'jan':'01', 'feb':'02', 'mar':'03', 'apr':'04', 'may':'05',
         'jun':'06', 'jul':'07', 'aug':'08', 'sep':'09',
         'oct':'10', 'nov':'11', 'dec':'12'}
-rrex = re.compile('.*(hindu|christian|islam).*(hindu|christian|islam).*')
+rrex = re.compile('.*(hindu|chris|islam|budd|jain|sikh).*(hindu|chris|islam|budd|jain|sikh).*')
 grex = re.compile('.*(daughter|wife).*')
 drex = re.compile('.*\(native.*district:(.*)\),.*')
 bdrex = re.compile('.*born[ ]*on(.*)\([ ]*native[ ]*district[ ]*:.*')
@@ -15,7 +15,6 @@ for year in range(2008,2020)[::-1]:
     dflist = []
     flist = glob.glob('text/%s*.txt' % year)
     print(year, "Total : ", len(flist))
-    rex = re.compile('.*(hindu|christian|christianity|islam).*?to (hindu|christianity|christian|islam).*')
     for i,f in enumerate(flist):
         pages = ""
         with open(f) as fp:
