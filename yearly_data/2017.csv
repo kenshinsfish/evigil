@@ -1311,7 +1311,7 @@ bday,cday,district,from,gender,to,year,week,regdate
 14-03-1953,20-05-2017,sivagangai,chris,M,hindu,2017,24,2017-06-12
 12-06-1977,22-07-2016,tiruchirappalli,hindu,M,islam,2017,24,2017-06-12
 7-01-1981,22-10-2012,nellore-andhra pradesh,hindu,M,chris,2017,24,2017-06-12
-11-03-1988,18-05-2017,kancheepuram,hindu,F,islam,2017,24,2017-06-12
+11-03-1988,18-05-2017,kancheepuram,sikh,F,islam,2017,24,2017-06-12
 13-01-1981,11-04-2004,chennai,hindu,F,chris,2017,24,2017-06-12
 17-12-1991,5-12-2014,chennai,hindu,F,islam,2017,24,2017-06-12
 7-05-1988,15-04-2017,erode,islam,F,hindu,2017,24,2017-06-12
@@ -1410,7 +1410,7 @@ bday,cday,district,from,gender,to,year,week,regdate
 24-05-1988,21-08-2017,thiruvarur,hindu,F,islam,2017,36,2017-09-04
 22-09-1981,11-10-1998,thoothukkudi,hindu,F,chris,2017,36,2017-09-04
 2-01-1984,15-08-1998,thoothukkudi,chris,M,islam,2017,36,2017-09-04
-20-10-1995,14-12-2014,kancheepuram,hindu,M,chris,2017,36,2017-09-04
+20-10-1995,14-12-2014,kancheepuram,sikh,M,chris,2017,36,2017-09-04
 20-03-1992,27-02-2014,thanjavur,hindu,F,islam,2017,36,2017-09-04
 4-05-1981,9-09-1996,vellore,hindu,F,chris,2017,36,2017-09-04
 8-07-1991,17-01-2014,thanjavur,hindu,F,islam,2017,36,2017-09-04
@@ -1437,7 +1437,7 @@ bday,cday,district,from,gender,to,year,week,regdate
 9-10-1989,10-08-2017,chennai,hindu,F,islam,2017,36,2017-09-04
 6-10-1989,2-05-2015,chennai,hindu,M,islam,2017,36,2017-09-04
 25-12-1989,30-07-2016,chennai,hindu,F,islam,2017,36,2017-09-04
-10-06-1963,9-08-2017,kancheepuram,UNK,M,UNK,2017,36,2017-09-04
+10-06-1963,9-08-2017,kancheepuram,hindu,M,islam,2017,36,2017-09-04
 7-06-1989,5-05-2017,virudhunagar,hindu,M,islam,2017,36,2017-09-04
 15-03-1984,7-08-2017,vellore,islam,M,hindu,2017,36,2017-09-04
 5-11-1995,28-08-2017,chennai,hindu,F,islam,2017,36,2017-09-04
@@ -1464,7 +1464,7 @@ bday,cday,district,from,gender,to,year,week,regdate
 2-05-1988,2-05-2012,thanjavur,hindu,F,islam,2017,18,2017-05-01
 22-03-1972,12-04-2017,tiruchirappalli,chris,M,hindu,2017,18,2017-05-01
 24-05-1991,25-03-2017,thanjavur,hindu,M,islam,2017,18,2017-05-01
-26-06-1994,12-04-2017,tiruchirappalli,chris,F,hindu,2017,18,2017-05-01
+26-06-1994,12-04-2017,tiruchirappalli,sikh,F,hindu,2017,18,2017-05-01
 17-02-1990,14-03-2016,chennai,chris,M,islam,2017,18,2017-05-01
 4-06-2001,10-04-2017,thanjavur,islam,M,hindu,2017,18,2017-05-01
 17-07-1976,15-04-2007,namakkal,hindu,M,chris,2017,18,2017-05-01
@@ -1737,7 +1737,7 @@ bday,cday,district,from,gender,to,year,week,regdate
 14-10-1970,14-11-2016,chennai,chris,F,hindu,2017,8,2017-02-20
 10-04-1993,12-02-2017,villuppuram,islam,F,hindu,2017,8,2017-02-20
 10-07-1991,3-09-2015,vellore,hindu,F,islam,2017,8,2017-02-20
-29-10-2005,2-10-2013,tirunelveli,hindu,F,islam,2017,8,2017-02-20
+29-10-2005,2-10-2013,tirunelveli,sikh,F,islam,2017,8,2017-02-20
 5-09-1990,2-01-2017,coimbatore,hindu,F,islam,2017,8,2017-02-20
 12-04-1986,29-12-1999,kancheepuram,hindu,M,chris,2017,8,2017-02-20
 31-01-1990,11-02-2017,thiruvannamalai,hindu,F,islam,2017,8,2017-02-20
@@ -2297,7 +2297,7 @@ bday,cday,district,from,gender,to,year,week,regdate
 4-04-1980,17-09-2006,kancheepuram,hindu,M,chris,2017,30,2017-07-24
 9-05-1985,1-01-2010,virudhunagar,hindu,M,chris,2017,30,2017-07-24
 18-09-1967,19-08-2005,coimbatore,chris,M,islam,2017,30,2017-07-24
-15-03-1994,15-07-2017,chennai,hindu,M,islam,2017,30,2017-07-24
+15-03-1994,15-07-2017,chennai,sikh,M,islam,2017,30,2017-07-24
 12-07-1958,8-07-2017,chennai,chris,F,hindu,2017,30,2017-07-24
 8-06-1995,13-07-2017,coimbatore,hindu,F,islam,2017,30,2017-07-24
 13-06-1960,18-07-1982,tiruvallur,hindu,M,chris,2017,30,2017-07-24
@@ -2564,7 +2564,7 @@ bday,cday,district,from,gender,to,year,week,regdate
 20-07-1986,10-10-2012,namakkal,hindu,F,islam,2017,49,2017-12-04
 12-07-1986,22-03-2016,coimbatore,hindu,M,islam,2017,49,2017-12-04
 25-02-1968,8-02-2009,UNK,hindu,F,chris,2017,49,2017-12-04
-26-05-1981,17-10-2013,the nilgiris,UNK,M,UNK,2017,49,2017-12-04
+26-05-1981,17-10-2013,the nilgiris,hindu,M,islam,2017,49,2017-12-04
 20-04-1976,15-01-2007,tiruppur,hindu,F,chris,2017,49,2017-12-04
 7-04-1978,26-09-2009,tiruppur,hindu,M,islam,2017,49,2017-12-04
 27-10-2001,16-03-2013,UNK,hindu,M,chris,2017,49,2017-12-04
@@ -2819,7 +2819,7 @@ bday,cday,district,from,gender,to,year,week,regdate
 18-01-1964,17-06-2016,chennai,hindu,M,chris,2017,7,2017-02-13
 30-12-2007,4-12-2016,tiruvallur,islam,M,hindu,2017,7,2017-02-13
 14-04-1995,17-08-2016,chennai,islam,F,hindu,2017,7,2017-02-13
-9-10-1993,3-02-2014,chennai,hindu,F,islam,2017,7,2017-02-13
+9-10-1993,3-02-2014,chennai,sikh,F,islam,2017,7,2017-02-13
 19-04-1995,1-06-2016,tiruchirappalli,hindu,M,islam,2017,7,2017-02-13
 30-07-1988,25-01-2017,nagapattinam,hindu,F,islam,2017,7,2017-02-13
 30-05-1971,4-06-2012,ariyalur,chris,M,islam,2017,7,2017-02-13
@@ -3060,7 +3060,7 @@ bday,cday,district,from,gender,to,year,week,regdate
 11-02-1960,3-04-1988,tiruvallur,hindu,F,chris,2017,40,2017-10-02
 10-06-1990,7-07-2005,chennai,hindu,F,chris,2017,40,2017-10-02
 26-04-1993,7-07-2017,thanjavur,hindu,F,islam,2017,40,2017-10-02
-4-04-1989,24-08-2017,tiruchirappalli,hindu,F,islam,2017,40,2017-10-02
+4-04-1989,24-08-2017,tiruchirappalli,sikh,F,islam,2017,40,2017-10-02
 28-04-1992,7-12-2014,vellore,hindu,F,islam,2017,40,2017-10-02
 18-09-2009,27-07-2013,madurai,hindu,M,chris,2017,40,2017-10-02
 6-11-1985,22-02-2017,chennai,hindu,M,islam,2017,40,2017-10-02
@@ -3204,7 +3204,7 @@ bday,cday,district,from,gender,to,year,week,regdate
 12-04-1988,13-12-2016,chennai,islam,F,hindu,2017,19,2017-05-08
 15-02-1990,29-04-2017,coimbatore,hindu,M,islam,2017,19,2017-05-08
 18-04-1977,10-05-2000,thiruvarur,hindu,M,islam,2017,19,2017-05-08
-18-02-1991,26-04-2017,chennai,hindu,F,islam,2017,19,2017-05-08
+18-02-1991,26-04-2017,chennai,sikh,F,islam,2017,19,2017-05-08
 5-06-1990,27-04-2017,thiruvarur,hindu,F,islam,2017,19,2017-05-08
 17-05-1955,16-03-2017,ramanathapuram,islam,F,hindu,2017,19,2017-05-08
 22-08-1992,18-04-2017,chennai,hindu,F,islam,2017,19,2017-05-08
@@ -4145,8 +4145,8 @@ bday,cday,district,from,gender,to,year,week,regdate
 3-09-1997,9-09-2016,namakkal,hindu,F,islam,2017,14,2017-04-03
 13-05-1974,30-07-2010,tirunelveli,hindu,F,chris,2017,14,2017-04-03
 13-04-1980,25-04-2004,dindigul,hindu,F,chris,2017,14,2017-04-03
-9-02-1987,26-02-2017,dindigul,chris,M,budd,2017,14,2017-04-03
-12-05-1993,26-02-2017,dindigul,UNK,M,UNK,2017,14,2017-04-03
+9-02-1987,26-02-2017,dindigul,budd,M,budd,2017,14,2017-04-03
+12-05-1993,26-02-2017,dindigul,chris,M,budd,2017,14,2017-04-03
 8-03-1983,6-08-2006,thoothukkudi,hindu,F,chris,2017,14,2017-04-03
 8-09-1983,18-06-2014,tiruchirappalli,hindu,M,islam,2017,14,2017-04-03
 10-12-1996,7-11-2015,coimbatore,hindu,F,islam,2017,14,2017-04-03

@@ -1828,7 +1828,7 @@ bday,cday,district,from,gender,to,year,week,regdate
 10-09-1965,8-09-1995,chennai,hindu,M,chris,2015,4,2015-01-26
 1-01-1986,30-05-2013,chennai,hindu,F,islam,2015,4,2015-01-26
 11-04-1960,7-06-1980,tiruchirappalli,hindu,M,chris,2015,4,2015-01-26
-31-07-1966,15-03-2004,namakkal,UNK,M,UNK,2015,4,2015-01-26
+31-07-1966,15-03-2004,namakkal,hindu,M,chris,2015,4,2015-01-26
 11-06-1993,3-09-2013,vellore,hindu,M,islam,2015,12,2015-03-23
 23-02-1988,4-08-2013,coimbatore,hindu,F,islam,2015,12,2015-03-23
 7-11-1994,2-10-2013,coimbatore,hindu,F,islam,2015,12,2015-03-23
@@ -2669,7 +2669,7 @@ bday,cday,district,from,gender,to,year,week,regdate
 29-07-1982,2-06-2007,erode,hindu,M,chris,2015,31,2015-08-03
 2-06-1983,5-10-2008,erode,hindu,F,chris,2015,31,2015-08-03
 21-06-1985,24-01-2009,chennai,hindu,F,chris,2015,31,2015-08-03
-9-05-2001,19-10-2010,chennai,UNK,F,UNK,2015,31,2015-08-03
+9-05-2001,19-10-2010,chennai,hindu,F,islam,2015,31,2015-08-03
 1-01-1969,4-03-2001,malapuram-kerala,hindu,F,chris,2015,31,2015-08-03
 12-03-1978,31-12-1997,chennai,hindu,F,islam,2015,31,2015-08-03
 30-08-1976,31-07-2015,bangalore-karnataka,chris,F,hindu,2015,31,2015-08-03
@@ -2894,7 +2894,7 @@ bday,cday,district,from,gender,to,year,week,regdate
 4-06-1982,7-09-2011,thanjavur,hindu,M,islam,2015,26,2015-06-29
 14-04-1984,27-03-2005,tirunelveli,hindu,M,chris,2015,26,2015-06-29
 18-07-1989,20-04-2014,virudhunagar,hindu,F,chris,2015,26,2015-06-29
-15-09-1990,20-06-2015,tiruvallur,UNK,M,UNK,2015,26,2015-06-29
+15-09-1990,20-06-2015,tiruvallur,hindu,M,islam,2015,26,2015-06-29
 4-03-1981,28-01-2009,tiruvarur,hindu,F,islam,2015,26,2015-06-29
 9-06-1983,15-06-2015,dindigul,hindu,F,chris,2015,26,2015-06-29
 22-10-1944,10-02-2006,tirunelveli,hindu,F,chris,2015,26,2015-06-29
