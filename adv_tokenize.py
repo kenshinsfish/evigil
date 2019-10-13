@@ -60,7 +60,7 @@ for year in range(2008,2020)[::-1]:
                         raise
                     day = day.strip('stndrh')
                     try:
-                        bday.append("%s-%s-%s" % (day, m_map[month.lower()[:3]], byear))
+                        bday.append("%s-%s-%s" % (byear, m_map[month.lower()[:3]], day))
                     except:
                         print month, f, group
                 else:
@@ -81,7 +81,7 @@ for year in range(2008,2020)[::-1]:
                         raise
                     day = day.strip('stndrh')
                     try:
-                        cday.append("%s-%s-%s" % (day, m_map[month.lower()[:3]], cyear))
+                        cday.append("%s-%s-%s" % (cyear, m_map[month.lower()[:3]], day))
                     except Exception as e:
                         print month.lower(), f
                         print group
