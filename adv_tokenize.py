@@ -69,5 +69,8 @@ for year in range(2008,2020)[::-1]:
 
 
     df = pd.concat(dflist).reset_index(drop=True)
+    df['wy'] = df['year'].astype('str') + '-W' + df['week'].astype('str') + '-1'
+    df['regdate'] = pd.to_datetime(df['wy'],format="%Y-W%W-%w")
+    df = df.drop('wy',axis=1)
     df.to_csv('%s.csv' % year, index=False)
 
